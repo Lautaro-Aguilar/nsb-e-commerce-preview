@@ -6,7 +6,7 @@ import Link from "next/link";
 function Login() {
   return (
     <div className="grid min-h-screen place-items-center">
-      <div className="flex w-11/12 max-w-xs flex-col items-center rounded-lg bg-white px-4 py-16 drop-shadow-xl lg:max-w-lg">
+      <div className="flex w-11/12 max-w-xs flex-col items-center rounded-2xl bg-white px-4 py-16 drop-shadow-xl lg:max-w-lg">
         <User2 className="h-[50px] w-[50px]" />
         <div className="grid w-full max-w-sm place-items-center">
           <div className="grid w-full max-w-sm items-center gap-1.5">

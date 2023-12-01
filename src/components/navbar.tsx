@@ -11,10 +11,10 @@ function Navbar() {
       {/* menu icon */}
       {/* logo */}
       {/* menu */}
-      <div className="flex items-center justify-between px-4 py-5">
-        <Menu className="h-8 w-8" />
-        <p className="text-xl font-semibold">Bienvenid@, Karoline</p>
-        <ShoppingBasket className="h-8 w-8" />
+      <div className="flex items-center justify-between py-5">
+        <Menu className="h-6 w-6 sm:h-8 sm:w-8" />
+        <p className="text-lg font-semibold sm:text-xl">Bienvenid@, Karoline</p>
+        <ShoppingBasket className="h-6 w-6 sm:h-8 sm:w-8" />
       </div>
     </nav>
   );

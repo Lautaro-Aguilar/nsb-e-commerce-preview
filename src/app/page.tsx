@@ -1,15 +1,21 @@
-import Link from "next/link";
+"use client";
+import Filters from "./filters";
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Filter } from "lucide-react";
 
 export default function HomePage() {
+  const [open, setOpen] = useState(false);
+  const onClose = () => setOpen(false);
+
   return (
-    <main>
-      <h1>Home Page</h1>
-      <p>
-        This is the home page. You can edit it at <code>src/app/page.tsx</code>.
-      </p>
-      <Link href="/login">
-        <p>Login</p>
-      </Link>
+    <main className="relative h-[calc(100vh-68px)]">
+      {/* FILTROS */}
+      <Button onClick={() => setOpen(!open)}>
+        <Filter className="mr-2 h-4 w-4" />
+        Filtros
+      </Button>
+      <Filters isOpen={open} onClose={onClose} />
     </main>
   );
 }

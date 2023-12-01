@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`font-sans ${poppins.variable} bg-slate-200`}>
+      <body className={`font-sans ${poppins.variable} container bg-slate-200`}>
         <Navbar />
         {children}
       </body>
