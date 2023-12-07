@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function Signup() {
   return (
-    <div className="grid min-h-screen place-items-center">
+    <div className="grid min-h-screen place-items-center drop-shadow-2xl">
       <ScrollArea className="flex max-h-[600px] w-11/12 max-w-xs flex-col items-center rounded-lg bg-white px-4 md:max-h-[700px] md:max-w-md lg:max-h-[700px] lg:max-w-lg xl:max-h-[800px] ">
         <div className="flex w-full flex-col items-center">
           <div className="relative my-8 h-36 w-36 border-2 border-dashed border-gray-800">
